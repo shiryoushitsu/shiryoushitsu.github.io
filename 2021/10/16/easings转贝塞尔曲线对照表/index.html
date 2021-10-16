@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>easings转贝塞尔曲线对照表 | 宁静致远的资料室</title><meta name="author" content="淡光"><meta name="copyright" content="淡光"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="个人最常用的easing22和easing23easing22：cubic-bezier(0.95,0.05,0.795,0.035)easing23：cubic-bezier(0.19,1,0.22,1)  ease          : cubic-bezier(0.25,0.1,0.25,1)easeIn        : cubic-bezier(0.42,0,1,1)easeOut">
+<meta property="og:type" content="article">
+<meta property="og:title" content="easings转贝塞尔曲线对照表">
+<meta property="og:url" content="https://shiryoushitsu.github.io/2021/10/16/easings%E8%BD%AC%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF%E5%AF%B9%E7%85%A7%E8%A1%A8/index.html">
+<meta property="og:site_name" content="宁静致远的资料室">
+<meta property="og:description" content="个人最常用的easing22和easing23easing22：cubic-bezier(0.95,0.05,0.795,0.035)easing23：cubic-bezier(0.19,1,0.22,1)  ease          : cubic-bezier(0.25,0.1,0.25,1)easeIn        : cubic-bezier(0.42,0,1,1)easeOut">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://shiryoushitsu.github.io/img/bg_blog.png">
+<meta property="article:published_time" content="2021-10-16T05:44:21.000Z">
+<meta property="article:modified_time" content="2021-10-16T06:32:24.002Z">
+<meta property="article:author" content="淡光">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://shiryoushitsu.github.io/img/bg_blog.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://shiryoushitsu.github.io/2021/10/16/easings%E8%BD%AC%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF%E5%AF%B9%E7%85%A7%E8%A1%A8/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'easings转贝塞尔曲线对照表',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-10-16 14:32:24'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="宁静致远的资料室" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="http://47.115.4.57:8060/index.html#/playground"><i class="fa-fw fas fa-home"></i><span> bas实验室</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="http://47.115.4.57:8060/index"><i class="fa-fw fas fa-archive"></i><span> 弹幕发射场</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/bg_blog.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">宁静致远的资料室</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="http://47.115.4.57:8060/index.html#/playground"><i class="fa-fw fas fa-home"></i><span> bas实验室</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="http://47.115.4.57:8060/index"><i class="fa-fw fas fa-archive"></i><span> 弹幕发射场</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">easings转贝塞尔曲线对照表</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-10-16T05:44:21.000Z" title="发表于 2021-10-16 13:44:21">2021-10-16</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-10-16T06:32:24.002Z" title="更新于 2021-10-16 14:32:24">2021-10-16</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="easings转贝塞尔曲线对照表"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><img src="http://47.115.4.57:8090/upload/2021/05/easing-1024x792-ba8358a4a9c34c02959dadd34121fd68.png" alt="easing1024x792.png"></p>
+<p>个人最常用的easing22和easing23<br>easing22：<br><strong>cubic-bezier(0.95,0.05,0.795,0.035)</strong><br>easing23：<br><strong>cubic-bezier(0.19,1,0.22,1)</strong></p>
+<hr>
+<p>ease          : cubic-bezier(0.25,0.1,0.25,1)<br>easeIn        : cubic-bezier(0.42,0,1,1)<br>easeOut       : cubic-bezier(0,0,0.58,1)<br>easeInOut     : cubic-bezier(0.42,0,0.58,1)</p>
+<hr>
+<p>1 linear        : cubic-bezier(0,0,1,1)</p>
+<p>2 easeInSine    : cubic-bezier(0.47,0,0.745,0.715)<br>3 easeOutSine   : cubic-bezier(0.39,0.575,0.565,1)<br>4 easeInOutSine : cubic-bezier(0.445,0.05,0.55,0.95)</p>
+<p>7 easeInQuad    : cubic-bezier(0.55,0.085,0.68,0.53)<br>8 easeOutQuad   : cubic-bezier(0.25,0.46,0.45,0.94)<br>9 easeInOutQuad : cubic-bezier(0.455,0.03,0.515,0.955)</p>
+<p>10 easeInCubic    : cubic-bezier(0.55,0.055,0.675,0.19)<br>11 easeOutCubic   : cubic-bezier(0.215,0.61,0.355,1)<br>12 easeInOutCubic : cubic-bezier(0.645,0.045,0.355,1)</p>
+<p>14 easeInQuart    : cubic-bezier(0.895,0.03,0.685,0.22)<br>15 easeOutQuart   : cubic-bezier(0.165,0.84,0.44,1)<br>16 easeInOutQuart : cubic-bezier(0.77,0,0.175,1)</p>
+<p>18 easeInQuint    : cubic-bezier(0.755,0.05,0.855,0.06)<br>19 easeOutQuint   : cubic-bezier(0.23,1,0.32,1)<br>20 easeInOutQuint : cubic-bezier(0.86,0,0.07,1)</p>
+<p>22 easeInExpo     : cubic-bezier(0.95,0.05,0.795,0.035)<br>23 easeOutExpo    : cubic-bezier(0.19,1,0.22,1)<br>24 easeInOutExpo  : cubic-bezier(1,0,0,1)</p>
+<p>26 easeInCirc     : cubic-bezier(0.6,0.04,0.98,0.335)<br>27 easeOutCirc    : cubic-bezier(0.075,0.82,0.165,1)<br>28 easeInOutCirc  : cubic-bezier(0.785,0.135,0.15,0.86)</p>
+<p>34 easeInBack     : cubic-bezier(0.6,-0.28,0.735,0.045)<br>35 easeOutBack    : cubic-bezier(0.175,0.885,0.32,1.275)<br>36 easeInOutBack  : cubic-bezier(0.68,-0.55,0.265,1.55)</p>
+</article><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021/10/16/%E4%BB%A3%E7%A0%81%E8%AE%B0%E5%BD%95/"><img class="prev-cover" src="/img/bg_blog.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">代码记录</div></div></a></div><div class="next-post pull-right"><a href="/2021/10/16/%E5%B1%82%E7%BA%A7%E4%BB%A3%E7%A0%81/"><img class="next-cover" src="/img/bg_blog.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">层级代码</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">淡光</div><div class="author-info__description">宁静致远的资料室</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/10/16/%E3%80%8A%E7%AC%AC%E4%BA%94%E5%9B%9E%E8%93%9D%E7%99%BD%E5%BC%B9%E5%B9%95%E5%90%88%E4%BD%9C%E7%A5%AD%E3%80%8B%E6%9D%82%E8%B0%88/" title="《第五回蓝白弹幕合作祭》杂谈">《第五回蓝白弹幕合作祭》杂谈</a><time datetime="2021-10-16T05:45:31.000Z" title="发表于 2021-10-16 13:45:31">2021-10-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/10/16/%E4%BB%A3%E7%A0%81%E8%AE%B0%E5%BD%95/" title="代码记录">代码记录</a><time datetime="2021-10-16T05:44:55.000Z" title="发表于 2021-10-16 13:44:55">2021-10-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/10/16/easings%E8%BD%AC%E8%B4%9D%E5%A1%9E%E5%B0%94%E6%9B%B2%E7%BA%BF%E5%AF%B9%E7%85%A7%E8%A1%A8/" title="easings转贝塞尔曲线对照表">easings转贝塞尔曲线对照表</a><time datetime="2021-10-16T05:44:21.000Z" title="发表于 2021-10-16 13:44:21">2021-10-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/10/16/%E5%B1%82%E7%BA%A7%E4%BB%A3%E7%A0%81/" title="层级代码">层级代码</a><time datetime="2021-10-16T05:42:56.000Z" title="发表于 2021-10-16 13:42:56">2021-10-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/10/16/%E5%BC%B9%E5%B9%95%E7%9B%B8%E5%85%B3%E5%A4%87%E5%BF%98%E5%BD%95/" title="弹幕相关备忘录">弹幕相关备忘录</a><time datetime="2021-10-16T05:42:14.000Z" title="发表于 2021-10-16 13:42:14">2021-10-16</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 淡光</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
